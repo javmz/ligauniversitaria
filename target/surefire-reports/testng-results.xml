@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>&nbsp;&nbsp;&nbsp;- NAVEGAR a:'http://laliga.dnsalias.net/delegados/']]>
+    </line>
+    <line>
+      <![CDATA[<p>Se corrobora que se esta en la pagina de login... ]]>
+    </line>
+    <line>
+      <![CDATA[<br>&nbsp;&nbsp;&nbsp;- CAMBIA VALOR de elemento (By.xpath: html/body/font/form/center/table/tbody/tr[1]/td[2]/p/input) a '4115390-5']]>
+    </line>
+    <line>
+      <![CDATA[<br>&nbsp;&nbsp;&nbsp;- CAMBIA VALOR de elemento (By.xpath: html/body/font/form/center/table/tbody/tr[2]/td[2]/p/input) a '198208254115']]>
+    </line>
+    <line>
+      <![CDATA[<br>&nbsp;&nbsp;&nbsp;- CLICK en (By.name: Ingresar)]]>
+    </line>
+    <line>
+      <![CDATA[<p>Captura de pantalla final:<br>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;<a href="file:///C:\Screenshots\Suits.Login2016-04-28 14_12_17_14.png">Suits.Login2016-04-28 14_12_17_14.png Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<p>TEST PASSED]]>
+    </line>
+  </reporter-output>
+  <suite name="UNIVERSITY" duration-ms="22429" started-at="2016-04-28T17:11:57Z" finished-at="2016-04-28T17:12:19Z">
+    <groups>
+    </groups>
+    <test name="CaptureTest" duration-ms="22429" started-at="2016-04-28T17:11:57Z" finished-at="2016-04-28T17:12:19Z">
+      <class name="Suits.Login">
+        <test-method status="PASS" signature="startSession(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Suits.Login@96532d6]" name="startSession" is-config="true" duration-ms="16794" started-at="2016-04-28T14:11:57Z" finished-at="2016-04-28T14:12:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://laliga.dnsalias.net/delegados/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dataXML/dataUNIVERSITY.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>&nbsp;&nbsp;&nbsp;- NAVEGAR a:'http://laliga.dnsalias.net/delegados/']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="completLogin()[pri:0, instance:Suits.Login@96532d6]" name="completLogin" duration-ms="2849" started-at="2016-04-28T14:12:14Z" description="Iniciar sesion con datos validos" finished-at="2016-04-28T14:12:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>Se corrobora que se esta en la pagina de login... ]]>
+            </line>
+            <line>
+              <![CDATA[<br>&nbsp;&nbsp;&nbsp;- CAMBIA VALOR de elemento (By.xpath: html/body/font/form/center/table/tbody/tr[1]/td[2]/p/input) a '4115390-5']]>
+            </line>
+            <line>
+              <![CDATA[<br>&nbsp;&nbsp;&nbsp;- CAMBIA VALOR de elemento (By.xpath: html/body/font/form/center/table/tbody/tr[2]/td[2]/p/input) a '198208254115']]>
+            </line>
+            <line>
+              <![CDATA[<br>&nbsp;&nbsp;&nbsp;- CLICK en (By.name: Ingresar)]]>
+            </line>
+            <line>
+              <![CDATA[<p>Captura de pantalla final:<br>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;<a href="file:///C:\Screenshots\Suits.Login2016-04-28 14_12_17_14.png">Suits.Login2016-04-28 14_12_17_14.png Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<p>TEST PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completLogin -->
+        <test-method status="PASS" signature="commonAfterTestMethod(java.lang.String, org.testng.ITestResult)[pri:0, instance:Suits.Login@96532d6]" name="commonAfterTestMethod" is-config="true" duration-ms="2745" started-at="2016-04-28T14:12:17Z" finished-at="2016-04-28T14:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=completLogin status=SUCCESS method=Login.completLogin()[pri:0, instance:Suits.Login@96532d6] output=<p>Se corrobora que se esta en la pagina de login... ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonAfterTestMethod -->
+      </class> <!-- Suits.Login -->
+    </test> <!-- CaptureTest -->
+  </suite> <!-- UNIVERSITY -->
+</testng-results>

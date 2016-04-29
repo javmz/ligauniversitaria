@@ -1,0 +1,9 @@
+PageObjects\POLogin.class
+Suits\SeleniumTestUniver.class
+PageObjects\POUniversity.class
+Functionalities\CommonSecurity.class
+PageObjects\POHome.class
+Functionalities\CommonHome.class
+Functionalities\CommonLogin.class
+Suits\Login.class
+Suits\CaptureTest.class
